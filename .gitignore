@@ -1,0 +1,70 @@
+# === General ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.bak
+*.env
+.env
+
+# === Build directories ===
+.gradle
+build/
+target/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === Maven ===
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# === Gradle Wrapper ===
+gradlew
+gradlew.bat
+
+# === Eclipse / Spring Tool Suite (STS) ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === Visual Studio Code ===
+.vscode/
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === H2 Database Files ===
+*.h2.db
+*.mv.db
+
+# === Misc ===
+HELP.md
